@@ -88,7 +88,7 @@ h1 {
   border-top: 6px solid #fe6701;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color:red;
+  color: #fe6701;
   border-top: 6px solid #0154a0;
 }
 .navbar-default .navbar-nav > .active > a:focus {
@@ -370,6 +370,16 @@ h1 {
   font-weight: 700;
   color:#0154a0;
 }
+.top_indicadores .pricing-price span {
+  font-weight: 300;
+  color: #0154a0;
+  font-size: 12px;
+}
+.top_indicadores .pricing-price  {
+  font-weight: 300;
+  color:#495057;
+  font-size: 12px;
+}
 li .title{
   font-weight: 300;
   color: #0255a0;
@@ -396,6 +406,22 @@ li.boletines {
 li.boletines.title{
   text-align: center;
 }
+li.indicadores {
+  font-size: 12px;
+  /* padding: 10px 10px 20px; */
+  /* text-align: justify; */
+}
+li.indicador-title {
+  background: transparent;
+  color: #0255a0;
+  padding: 13px ;
+  border-radius: 4px 4px 0 0;
+  font-size: 19px;
+  font-weight: 400;
+  border-bottom: 1px solid #0255a0;
+  border-top: 1px solid  #e2e2e2;
+}
+
 li.boletin-title {
   background: transparent;
   color: #0255a0;
@@ -439,17 +465,38 @@ li.boletin-title {
   padding: 10px 20px;
   font-weight: 400;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
   background-color: #1e6fbb;
   border-color:#1e6fbb;
   color: #FFFFFF;
 }
-.btn-primary:active,
-.btn-primary.active,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-info {
+  background-color:#0154a0;
+  border-color:#0154a0;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 300;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  background-color: #1e6fbb;
+  border-color:#1e6fbb;
+  color: #FFFFFF;
+}
+.btn-info:active,
+.btn-info.active,
 .open .dropdown-toggle.btn-primary {
   background-image: none;
 }
@@ -1082,4 +1129,22 @@ section.comments {
   .center-orientation .cssanimations .vertical-timeline-content.is-hidden {
     visibility: hidden;
   }
+}
+
+.form-control{
+  font-size: 12px;
+  font-weight: 200;
+  border: .5px solid rgb(237, 237, 237);
+}
+.badge {
+  font-weight: 400;
+}
+.contact a{
+  color: black;
+}
+.contact a:hover{
+  color: #fe6701;
+}
+.contact a:active{
+  color:#0154a0;
 }

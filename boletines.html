@@ -29,42 +29,8 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body id="page-top">
-    <div class="navbar-wrapper">
-        <nav class="navbar navbar-default fixed-top navbar-expand-lg " role="navigation" style="
-                    background: #fff; margin: 0; padding:  0;">
-            <div class="container ">
-                <a class="navbar-brand" href="#"> ENTEL CYBERSECURE THREAT INTELLIGENCE </a>
-                <div class="navbar-header page-scroll">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon pt-1">
-                            <i class="fa fa-bars fa-lg "></i>
-                        </span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse  justify-content-end" id="navbar">
-                    <ul class="navbar-nav  nav  navbar-right">
-                        <li class="nav-item active">
-                            <a class="nav-link page-scroll" href="#page-top">Inicio
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll" href="#features">Boletines de seguridad</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll " href="#team">Centro conocimiento</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link page-scroll " href="#contact">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
 
-            </div>
-        </nav>
-    </div>
+<body id="page-top">
     <section class="container features mt-5">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -81,273 +47,132 @@
         </div>
         <div class="row">
             <nav class="navbar navbar-expand-lg  bg-ligth button-group filters-button-group">
-                <a class="navbar-brand is-checked" data-filter="*" href="#">
-                    <button type="button" class="btn btn-primary is-checked" data-filter="*">Ver todos</button>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">
-                                <button type="button" class="btn btn-danger" data-filter=".RED">| TLP: RED</button>
+                                    <button type="button" class="btn-sm btn  btn-outline-primary is-checked" data-filter="*">Ver todos</button>
                                 <span class="sr-only" data-filter=".GREEN">(current)</span>
                             </a>
                         </li>
+                        <li class="nav-item active">
+                                <a class="nav-link" href="#">
+                                    <button type="button" class=" btn btn-sm btn-outline-danger" data-filter=".RED">| TLP: RED</button>
+                                    <span class="sr-only" data-filter=".GREEN">(current)</span>
+                                </a>
+                            </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <button type="button" class="btn btn-dark" data-filter=".WITHE">| TLP: WHITE</button>
+                                <button type="button" class="btn-sm btn  btn-outline-dark" data-filter=".WITHE">| TLP: WHITE</button>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#">
-                                <button type="button" class="btn btn-warning" data-filter=".yellow">| TLP: AMBER</button>
+                                <button type="button" class=" btn btn-sm btn-outline-warning" data-filter=".yellow">| TLP: AMBER</button>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#">
-                                <button type="button" class="btn btn-success" data-filter=".GREEN">| TLP: GREEN</button>
+                                <button type="button" class=" btn btn-sm btn-outline-success" data-filter=".GREEN">| TLP: GREEN</button>
                             </a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0 pr-5">
-                        <input class="form-control mr-sm-2" type="search" placeholder="virus, malware..." aria-label="Search">
-                        <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
-                    </form>
-                </div>
+
+
             </nav>
         </div>
-        <div class="d-flex grid ">
-            <!-- Count item widget-->
-            <div class="col-xl-2 col-md-4 col-6 element-item transition GREEN metal " data-category="GREEN" style="position: absolute; left: 0px; top: 0px;">
-                <div class="wrapper count-title d-flex">
-                    <div class="icon">
-                        <i class="icon-padnote"></i>
-                    </div>
-                    <div class="name">
-                        <strong class="text-uppercase">04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: AMBER</a>
-                        </strong>
-                        <span>Last 5 days</span>
-                        <div class="count-number">400</div>
-                    </div>
+        <div class="d-flex row features-block grid">
+            <div class="col-lg-3 features-text element-item actinoid  WITHE metal inner-transition " data-category="WITHE">
+                <small> 04 de julio 2018
+                    <a href="https://www.us-cert.gov/tlp" class="badge badge-dark">| TLP: AMBER</a>
+                </small>
+                <h2>Mitigaciones para Spectre en navegadores </h2>
+                <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                    robados de empresas legítimas, como D-Link,</p>
+                <p>
+                    <small>
+                        <keyword>blacktech</keyword>,
+                        <keyword>blacktech</keyword>
+                    </small>
+                </p>
+
+                <a href="" class="btn  btn-info">Leer</a>
+            </div>
+            <div class="col-lg-3 features-text element-item transition GREEN metal " data-category="GREEN">
+                <small> 04 de julio 2018
+                    <a href="https://www.us-cert.gov/tlp" class="badge badge-success">| TLP: AMBER</a>
+                </small>
+                <h2>Mitigaciones para Spectre en navegadores </h2>
+                <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                    robados de empresas legítimas, como D-Link,</p>
+                <a href="" class="btn  btn-info">Leer</a>
+            </div>
+            <div class="col-lg-3 features-text element-item yellow metal inner-transition" data-category="yellow">
+                <small> 04 de julio 2018
+                    <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: AMBER</a>
+                </small>
+                <h2>Mitigaciones para Spectre en navegadores </h2>
+                <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                    robados de empresas legítimas, como D-Link,</p>
+                <a href="" class="btn  btn-info">Leer</a>
+            </div>
+            <div class="col-lg-3 features-text  element-item RED metal inner-transition" data-category="RED">
+                <small> 04 de julio 2018
+                    <a href="https://www.us-cert.gov/tlp" class="badge badge-danger">| TLP: AMBER</a>
+                </small>
+                <h2>Mitigaciones para Spectre en navegadores </h2>
+                <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                    robados de empresas legítimas, como D-Link,</p>
+                <a href="" class="btn  btn-info">Leer</a>
+            </div>
+            <div class="col-lg-3 features-text element-item actinoid  WITHE metal inner-transition " data-category="WITHE">
+                    <small> 04 de julio 2018
+                        <a href="https://www.us-cert.gov/tlp" class="badge badge-dark">| TLP: AMBER</a>
+                    </small>
+                    <h2>Mitigaciones para Spectre en navegadores </h2>
+                    <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                        robados de empresas legítimas, como D-Link,</p>
+                    <p>
+                        <small>
+                            <keyword>blacktech</keyword>,
+                            <keyword>blacktech</keyword>
+                        </small>
+                    </p>
+    
+                    <a href="" class="btn  btn-info">Leer</a>
                 </div>
+            <div class="col-lg-3 features-text element-item transition GREEN metal" data-category="GREEN">
+                <small> 04 de julio 2018
+                    <a href="https://www.us-cert.gov/tlp" class="badge badge-success">| TLP: AMBER</a>
+                </small>
+                <h2>Mitigaciones para Spectre en navegadores </h2>
+                <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                    robados de empresas legítimas, como D-Link,</p>
+                <p>
+                    <small>
+                        <keyword>blacktech</keyword>,
+                        <keyword>blacktech</keyword>
+                    </small>
+                </p>
+
+                <a href="" class="btn  btn-info">Leer</a>
             </div>
-            <!-- Count item widget-->
-            <div class="col-xl-2 col-md-4 col-6 element-item actinoid  WITHE metal inner-transition " data-category="WITHE" style="position: absolute; left: 173.828px; top: 0px;">
-                <div class="wrapper count-title d-flex">
-                    <div class="icon">
-                        <i class="icon-check"></i>
-                    </div>
-                    <div class="name">
-                        <strong class="text-uppercase">04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-dark">| TLP: WITHE</a>
-                        </strong>
-                        <span>Last 2 months</span>
-                        <div class="count-number">342</div>
-                    </div>
-                </div>
+            <div class="col-lg-3 features-text element-item yellow nonmetal" data-category="yellow">
+                <small> 04 de julio 2018
+                    <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: AMBER</a>
+                </small>
+                <h2>Mitigaciones para Spectre en navegadores </h2>
+                <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                    robados de empresas legítimas, como D-Link,</p>
+                <a href="" class="btn  btn-info">Leer</a>
             </div>
-            <!-- Count item widget-->
-            <div class="col-xl-2 col-md-4 col-6 element-item RED metal inner-transition " data-category="RED" style="position: absolute; left: 347.656px; top: 0px;">
-                <div class="wrapper count-title d-flex">
-                    <div class="icon">
-                        <i class="icon-bill"></i>
-                    </div>
-                    <div class="name">
-                        <strong class="text-uppercase">04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-danger">| TLP: SUCCESS</a>
-                        </strong>
-                        <span>Last 2 days</span>
-                        <div class="count-number">123</div>
-                    </div>
-                </div>
-            </div>
-            <!-- Count item widget-->
-            <div class="col-xl-2 col-md-4 col-6 element-item yellow metal inner-transition" data-category="yellow" style="position: absolute; left: 521.484px; top: 0px;">
-                <div class="wrapper count-title d-flex">
-                    <div class="icon">
-                        <i class="icon-list"></i>
-                    </div>
-                    <div class="name">
-                        <strong class="text-uppercase">Open Cases</strong>
-                        <span>Last 3 months</span>
-                        <div class="count-number">92</div>
-                    </div>
-                </div>
-            </div>
-            <!-- Count item widget-->
-            <div class="col-xl-2 col-md-4 col-6 element-item yellow nonmetal" data-category="yellow" style="position: absolute; left: 695.312px; top: 0px;">
-                <div class="wrapper count-title d-flex">
-                    <div class="icon">
-                        <i class="icon-list-1"></i>
-                    </div>
-                    <div class="name">
-                        <strong class="text-uppercase">New Cases</strong>
-                        <span>Last 7 days
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-success">| TLP: GREEN</a>
-                        </span>
-                        <div class="count-number">70</div>
-                    </div>
-                </div>
-            </div>
-            <!-- Count item widget-->
-            <div class="col-xl-2 col-md-4 col-6 element-item transition GREEN metal " data-category="GREEN" style="position: absolute; left: 869.14px; top: 0px;">
-                <div class="wrapper count-title d-flex">
-                    <div class="icon">
-                        <i class="icon-padnote"></i>
-                    </div>
-                    <div class="name">
-                        <strong class="text-uppercase">04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: AMBER</a>
-                        </strong>
-                        <span>Last 5 days</span>
-                        <div class="count-number">400</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3">
-                <div class="card income">
-                    <div class="card-header d-flex align-items-center">
-                        <h4>
-                            <i class="icon-check"></i>
-                            04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: WITHE</a>
-                        </h4>
-                    </div>
-                    <div class="expandable card-body text-muted">
-                        <span> Un nuevo malware denominado
-                            <em>PLEAD</em>, asociado al grupo de ciberespionaje
-                            <em>yellowTech</em>, utiliza certificados digitales robados de empresas legítimas, como
-                            <a href="https://securityadvisories.dlink.com/announcement/publication.aspx?name=SAP10089">D-Link</a>,
-                        </span>
-                        <div class="line"></div>
-                        <figcaption>
-                            <span class="blue-text">
-                                <keyword>malware</keyword>
-                            </span>&nbsp;
-                            <span class="badge">
-                                <keyword>blacktech</keyword>
-                            </span>&nbsp;</figcaption>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card income">
-                    <div class="card-header d-flex align-items-center">
-                        <h4>
-                            <i class="icon-check"></i>
-                            04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: AMBER</a>
-                        </h4>
-                    </div>
-                    <div class="expandable card-body text-muted">
-                        <span> Un nuevo malware denominado
-                            <em>PLEAD</em>, asociado al grupo de ciberespionaje
-                            <em>BlackTech</em>, utiliza certificados digitales robados de empresas legítimas, como
-                            <a href="https://securityadvisories.dlink.com/announcement/publication.aspx?name=SAP10089">D-Link</a>,
-                        </span>
-                        <div class="line"></div>
-                        <figcaption>
-                            <span class="blue-text">
-                                <keyword>malware</keyword>
-                            </span>&nbsp;
-                            <span class="badge">
-                                <keyword>blacktech</keyword>
-                            </span>&nbsp;</figcaption>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card income">
-                    <div class="card-header d-flex align-items-center">
-                        <h4>
-                            <i class="icon-check"></i>
-                            04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: AMBER</a>
-                        </h4>
-                    </div>
-                    <div class="expandable card-body text-muted">
-                        <span> Un nuevo malware denominado
-                            <em>PLEAD</em>, asociado al grupo de ciberespionaje
-                            <em>BlackTech</em>, utiliza certificados digitales robados de empresas legítimas, como
-                            <a href="https://securityadvisories.dlink.com/announcement/publication.aspx?name=SAP10089">D-Link</a>,
-                        </span>
-                        <div class="line"></div>
-                        <figcaption>
-                            <span class="blue-text">
-                                <keyword>malware</keyword>
-                            </span>&nbsp;
-                            <span class="badge">
-                                <keyword>blacktech</keyword>
-                            </span>&nbsp;</figcaption>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="card income">
-                    <div class="card-header d-flex align-items-center">
-                        <h4>
-                            <i class="icon-check"></i>
-                            04 de julio 2018
-                            <a href="https://www.us-cert.gov/tlp" class="badge badge-warning">| TLP: AMBER</a>
-                        </h4>
-                    </div>
-                    <div class="expandable card-body text-muted">
-                        <span> Un nuevo malware denominado
-                            <em>PLEAD</em>, asociado al grupo de ciberespionaje
-                            <em>BlackTech</em>, utiliza certificados digitales robados de empresas legítimas, como
-                            <a href="https://securityadvisories.dlink.com/announcement/publication.aspx?name=SAP10089">D-Link</a>,
-                        </span>
-                        <div class="line"></div>
-                        <figcaption>
-                            <span class="blue-text">
-                                <keyword>malware</keyword>
-                            </span>&nbsp;
-                            <span class="badge">
-                                <keyword>blacktech</keyword>
-                            </span>&nbsp;</figcaption>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row features-block">
-            <div class="col-lg-3 features-text wow fadeInLeft">
-                <small>INSPINIA</small>
-                <h2>Perfectly designed </h2>
-                <p>INSPINIA Admin Theme is a premium admin dashboard template with flat design concept. It is fully responsive
-                    admin dashboard template built with Bootstrap 3+ Framework, HTML5 and CSS3, Media query. It has a huge
-                    collection of reusable UI components and integrated with latest jQuery plugins.</p>
-                <a href="" class="btn btn-primary">Leer</a>
-            </div>
-            <div class="col-lg-3 features-text wow fadeInLeft">
-                <small>INSPINIA</small>
-                <h2>Perfectly designed </h2>
-                <p>INSPINIA Admin Theme is a premium admin dashboard template with flat design concept. It is fully responsive
-                    admin dashboard template built with Bootstrap 3+ Framework, HTML5 and CSS3, Media query. It has a huge
-                    collection of reusable UI components and integrated with latest jQuery plugins.</p>
-                <a href="" class="btn btn-primary">Leer</a>
-            </div>
-            <div class="col-lg-3 features-text  wow fadeInRight">
-                <small>INSPINIA</small>
-                <h2>Perfectly designed </h2>
-                <p>INSPINIA Admin Theme is a premium admin dashboard template with flat design concept. It is fully responsive
-                    admin dashboard template built with Bootstrap 3+ Framework, HTML5 and CSS3, Media query. It has a huge
-                    collection of reusable UI components and integrated with latest jQuery plugins.</p>
-                <a href="" class="btn btn-primary">Leer</a>
-            </div>
-            <div class="col-lg-3 features-text  wow fadeInRight">
-                <small>INSPINIA</small>
-                <h2>Perfectly designed </h2>
-                <p>INSPINIA Admin Theme is a premium admin dashboard template with flat design concept. It is fully responsive
-                    admin dashboard template built with Bootstrap 3+ Framework, HTML5 and CSS3, Media query. It has a huge
-                    collection of reusable UI components and integrated with latest jQuery plugins.</p>
-                <a href="" class="btn btn-primary">Leer</a>
+            <div class="col-lg-3 features-text  element-item RED metal inner-transition" data-category="RED">
+                <small> 04 de julio 2018
+                    <a href="https://www.us-cert.gov/tlp" class="badge badge-danger">| TLP: AMBER</a>
+                </small>
+                <h2>Mitigaciones para Spectre en navegadores </h2>
+                <p>Un nuevo malware denominado PLEAD, asociado al grupo de ciberespionaje BlackTech, utiliza certificados digitales
+                    robados de empresas legítimas, como D-Link,</p>
+                <a href="" class="btn btn-info">Leer</a>
             </div>
         </div>
 
