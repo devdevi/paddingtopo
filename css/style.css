@@ -1148,3 +1148,8 @@ section.comments {
 .contact a:active{
   color:#0154a0;
 }
+code {
+  font-size: 87.5%;
+  color:#727272;
+  word-break: break-word;
+}
